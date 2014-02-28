@@ -21,7 +21,8 @@ public class Task extends Model{
 		  );
 	
 	public static List<Task> all() {
-		return find.all();
+//		return find.all();
+		return new ArrayList<Task>();
 	}
 
 	public static void create(Task task) {
